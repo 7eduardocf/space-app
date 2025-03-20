@@ -6,8 +6,9 @@ const ListaEstilizada = styled.li`
     margin-bottom: 30px;
     cursor: pointer;
     color:${props=> props.ativo ? "#7B78E5" : "#D9D9D9"};
+    font-family:${props=> props.ativo ? "GandhiSansBold" : "GandhiSansRegular"};
     display: flex;
-    gap:22px;
+    gap: 22px;
     align-items: center;
 
 `
