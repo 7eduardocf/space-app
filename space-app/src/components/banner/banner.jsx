@@ -3,10 +3,12 @@ import banner from "/banner.png"
 
 const BannerEstilizado = styled.div`
     background-image: url(${banner});
-    width: 1156px;
+    width: 1204px;
     height: 328px;
     align-items:center;
     display:flex;
+    border-radius: 16px;
+    background-size:cover;
     p{
         font-family: "GandhiSansBold";
         font-size: 40px;
